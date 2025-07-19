@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head> <meta charset="UTF-8">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>RSR Cart</title>
+    <style>
+      body{
+        background-color: rgb(156, 255, 194);
+        font-family: Arial;
+      
+      }
+      
+    </style>
+  </head>
+  <body>
+   <!-- HEADER SECTION -->
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; background-color: #ffffff; border-bottom: 1px solid #ddd;">
+
+  <!-- Left: Logo -->
+  <div style="flex: 1;">
+    <img src="images/LOGO.png" alt="RSR Cart Logo" style="height: 200px;">
+  </div>
+
+  <!-- Center: Brand Name & Tagline -->
+  <div style="flex: 2; text-align: center;">
+    <h1 style="margin: 0; font-size: 32px; color: #333;">RSR Cart</h1>
+    <p style="margin: 5px 0; font-size: 16px; color: #777;">From Our Cart to Your Door</p>
+    <a href="#products" style="text-decoration: none;">
+      <button style="margin-top: 10px; padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        🛍️ Shop Now
+      </button>
+    </a>
+  </div>
+
+  <!-- Right: Owner Photo -->
+  <div style="flex: 1; text-align: right;">
+    <img src="images/Rabbey17.jpg" alt="Owner Photo" style="height: 200px; width: 200px; border-radius: 50%; object-fit: cover;">
+  </div>
+
+</header>
+ 
+   
+  
+
+
+ <section style="padding: 40px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">🛒 Why Shop With Us?</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; gap: 20px;">
+      <div style="flex: 1 1 250px; max-width: 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>✔️ Quality Products</h3>
+        <p>Every item is handpicked to ensure durability, style, and value.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>🛡️ Secure Checkout</h3>
+        <p>Your privacy matters. Shop with confidence using encrypted payments.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>🚚 Fast Delivery</h3>
+        <p>We ensure timely shipping so you get your items right when you need them.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>💬 Friendly Support</h3>
+        <p>Got questions? Our support team is always here to help you out.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Features -->
+  <section style="padding: 40px; background-color: #ffffff;">
+    <h2 style="text-align: center; color: #333;">🔧 Features</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 30px; gap: 20px;">
+      <div style="flex: 1 1 250px; max-width: 300px; background: #f0f8ff; border-radius: 10px; padding: 20px;">
+        <h3>🔄 Easy Returns</h3>
+        <p>Return products easily within 7 days if you're not satisfied.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 300px; background: #f0f8ff; border-radius: 10px; padding: 20px;">
+        <h3>🕒 24/7 Availability</h3>
+        <p>Shop anytime, from anywhere — we’re always open.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Products -->
+  <section style="padding: 40px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">🛍️ Our Products</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+      <div style="flex: 1 1 250px; max-width: 250px; background: white; padding: 20px; border-radius: 10px;">
+        <h4>👗 Fashion</h4>
+        <p>Trendy clothing for every season and style.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 250px; background: white; padding: 20px; border-radius: 10px;">
+        <h4>📱 Gadgets</h4>
+        <p>Modern tech accessories at affordable prices.</p>
+      </div>
+      <div style="flex: 1 1 250px; max-width: 250px; background: white; padding: 20px; border-radius: 10px;">
+        <h4>🎁 Gifts</h4>
+        <p>Perfect surprises for your loved ones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Your Order -->
+  <section style="padding: 40px; background-color: #ffffff;">
+    <h2 style="text-align: center; color: #333;">📦 Your Order</h2>
+    <div style="text-align: center; margin-top: 20px;">
+      <p>Track your order easily using your order ID.</p>
+      <input type="text" placeholder="Enter Order ID" style="padding: 10px; width: 250px; border-radius: 5px; border: 1px solid #ccc;">
+      <button style="padding: 10px 20px; margin-left: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Track</button>
+    </div>
+  </section>
+
+  <!-- Section: Blog -->
+  <section style="padding: 40px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">✍️ From Our Blog</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+      <div style="flex: 1 1 300px; max-width: 320px; background: white; padding: 20px; border-radius: 10px;">
+        <h4>📝 5 Tips for Smart Shopping</h4>
+        <p>Learn how to save money while shopping online!</p>
+      </div>
+      <div style="flex: 1 1 300px; max-width: 320px; background: white; padding: 20px; border-radius: 10px;">
+        <h4>🎯 Best Deals This Month</h4>
+        <p>Check out our top picks and discounts for July!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: About Us -->
+  <section style="padding: 40px; background-color: #ffffff;">
+    <h2 style="text-align: center; color: #333;">👥 About Us</h2>
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <p>Welcome to <strong>RSR Cart</strong> — your trusted online store! We’re committed to delivering high-quality products with fast shipping and reliable support. Founded by <strong>Redowan Sultan Rabbey</strong>,RSR Cart is designed to make online shopping easy and enjoyable.</p>
+    </div>
+    </section>
+
+
+<!-- CONTACT US SECTION -->
+<section style="padding: 40px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; color: #333;">📞 Contact <span style="color: #007bff;">RSR Cart</span></h2>
+
+  <div style="max-width: 800px; margin: 30px auto; display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+
+    <!-- Contact Info -->
+    <div style="flex: 1 1 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <h4>📍 Address</h4>
+      <p>Dhaka, Bangladesh</p>
+
+      <h4>📧 Email</h4>
+      <p>support@rsrcart.com</p>
+
+      <h4>📱 Phone</h4>
+      <p>+880-1XXXXXXXXX</p>
+
+      <h4>💬 Social Media</h4>
+      <div style="font-size: 18px; display: flex; flex-direction: column; gap: 10px;">
+        <a href="https://facebook.com" target="_blank" style="text-decoration: none; color: #3b5998;">
+          <i class="fab fa-facebook-square"></i> Facebook
+        </a>
+        <a href="https://instagram.com" target="_blank" style="text-decoration: none; color: #E1306C;">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" style="text-decoration: none; color: #25D366;">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://twitter.com" target="_blank" style="text-decoration: none; color: #1DA1F2;">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div style="flex: 1 1 300px; background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+      <h4>📨 Send Us a Message</h4>
+      <form>
+        <input type="text" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+        <input type="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+        <textarea placeholder="Your Message" rows="4" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+        <button type="submit" style="margin-top: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Send</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background-color: #ffffff; padding: 20px 40px; border-top: 1px solid #ddd; text-align: center; color: #555;">
+  <p>&copy; 2025 RSR Cart. All rights reserved.</p>
+  <div style="margin-top: 10px; font-size: 20px;">
+    <a href="https://facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
+      <i class="fab fa-facebook-square"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" style="margin: 0 10px; color: #E1306C;">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/8801XXXXXXXXX" target="_blank" style="margin: 0 10px; color: #25D366;">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" style="margin: 0 10px; color: #1DA1F2;">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+</footer>
+
+
+  </body>
+</html>
